@@ -41,3 +41,6 @@ shell> ./redis_find_bigkey -H 192.168.176.204 -p 123456 -c
 ```
 ![image](https://github.com/hcymysql/redis_find_bigkey/assets/19261879/bfee2452-d413-4a78-a01b-89d452f0f279)
 
+会在当前目录下，把big keys信息保存在{IP}_{PORT}_bigkeys.txt文件里。
+
+### 注：redis_find_bigkey 不能低于Redis 4.0版本使用，适用于CentOS 7系统。
