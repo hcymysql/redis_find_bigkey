@@ -13,7 +13,7 @@ options:
                         Redis密码
   -c                    连接到 Redis 集群模式
   --threshold THRESHOLD
-                        阈值，默认为10KB（单位：字节）
+                        阈值，默认为10240（10KB）
   -v, --version         show program's version number and exit
 ```
 
