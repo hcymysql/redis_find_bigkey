@@ -1,4 +1,5 @@
 # redis_find_bigkey工具 - 自定义阀值查找Redis Big Keys
+# https://github.com/hcymysql/redis_find_bigkey
 
 Redis大key是指在Redis中存储的Value值非常大的键，当一个命令需要处理大的键值时，Redis将会花费更多的时间来执行这个命令，这会导致其他客户端发起的命令需要等待更长的时间才能得到响应。在高并发的场景下，这可能会导致整个系统的性能下降，甚至出现请求超时的情况。
 
